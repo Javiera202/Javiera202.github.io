@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Notable&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Notable&family=Seymour+One&family=Varela&display=swap');
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background-color: rgb(122, 13, 31);
+  display: flex;
+  flex-direction: column;
+}
+
+/*Esta parte es para el encabezado de la pagína donde aparece el nombre del sitio,
+donde se encuentra la tipografía, el tamaño de la letra, el color de fondo, 
+el color de la letra, etc*/
+header {
+  font-family: "Notable", sans-serif;
+  background-color: rgb(96, 3, 10);
+  color: rgb(230, 187, 138);
+  text-align: center;
+  padding: 1rem;
+}
+
+.navbar {
+  background-color: rgb(96, 3, 10);
+  padding: 0.8rem 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(230, 187, 138) !important;
+  font-weight: 500;
+  margin: 0 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+.collapse.navbar-collapse {
+  transition: all 0.3s ease;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .navbar-nav .nav-link {
+    display: block;
+    margin: 8px 0;
+  }
+}
+
+/*Esta parte es la que se encuentra debajo del encabezado "clasicos que no fallan",
+es el subtítulo del sitio*/
+
+main.principal {
+  font-family: "Notable", sans-serif;
+  flex: 1;
+  background-color: #e0b481;
+  text-align: center;
+  padding: 2rem;
+}
+
+/*Esta parte es para el cuadrado que s eencuentra debajo del subtítulo*/
+p.parrafo {
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 2rem;
+}
+
+/*Aqui empezamos con la parte de las películas, donde se encuentra su poster, su título y su resumen*/
+
+/*Película: La Casa Lobo*/
+.pelicula1 {
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3.125rem;
+  margin:2.5rem;
+}
+
+.pelicula1 .carouselslide .carousel-inner .carousel-itemactive img  {  
+  width: 100%;
+  height: 40rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.pelicula1 .texto {
+  flex: 1;
+  text-align: justify;
+}
+
+.pelicula1 .texto:hover{
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+
+/*Película: El Resplandor*/
+.pelicula2 {
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3.125rem;
+  margin:2.5rem;
+}
+
+.pelicula2 .carouselslide .carousel-inner .carousel-itemactive img  {  
+  width: 100%;
+  height: 40rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.pelicula2 .texto {
+  flex: 1;
+  text-align: justify;
+}
+
+.pelicula2 .texto:hover{
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+
+/*Película: El Exorcista*/
+.pelicula3 {
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3.125rem;
+  margin: 2.5rem;
+}
+
+.pelicula3 .carouselslide .carousel-inner .carousel-itemactive img  {
+  width: 100%;
+  height: 40rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.pelicula3 .texto {
+  flex: 1;
+  text-align: justify;
+}
+
+.pelicula3 .texto:hover{
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+
+/*Película: Parasitos*/
+.pelicula4 {
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3.125rem;
+  margin:2.5rem;
+}
+
+.pelicula4 .carouselslide .carousel-inner .carousel-itemactive img  {
+  width: 100%;
+  height: 40rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.pelicula4 .texto {
+  flex: 1;
+  text-align: justify;
+}
+
+.pelicula4 .texto:hover{
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+
+/*Película: El Legado del Diablo*/
+.pelicula5 {
+  font-family: "Varela", sans-serif;
+  font-weight: 00;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3.125rem;
+  margin:2.5rem;
+}
+
+.pelicula5 .carouselslide .carousel-inner .carousel-itemactive img  {
+  width: 100%;
+  height: 40rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.pelicula5 .texto {
+  flex: 1;
+  text-align: justify;
+}
+
+.pelicula5 .texto:hover{
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+
+/*Película: El Cadáver de la Novia*/
+.pelicula6 {
+  font-family: "Varela", sans-serif;
+  font-weight: 00;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3.125rem;
+  margin:2.5rem;
+}
+
+.pelicula6 .carouselslide .carousel-inner .carousel-itemactive img  {
+  width: 100%;
+  height: 40rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.pelicula6 .texto {
+  flex: 1;
+  text-align: justify;
+}
+
+.pelicula6 .texto:hover{
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+/*Película: El Fantasma de la Ópera*/
+.pelicula7 {
+  font-family: "Varela", sans-serif;
+  font-weight: 00;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3.125rem;
+  margin:2.5rem;
+}
+
+.pelicula7 .carouselslide .carousel-inner .carousel-itemactive img  {
+  width: 100%;
+  height: 40rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.pelicula7 .texto {
+  flex: 1;
+  text-align: justify;
+}
+
+.pelicula7 .texto:hover{
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+/*Película: La La Land*/
+.pelicula8 {
+  font-family: "Varela", sans-serif;
+  font-weight: 00;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 3.125rem;
+  margin:2.5rem;
+}
+
+.pelicula8 .carouselslide .carousel-inner .carousel-itemactive img  {
+  width: 100%;
+  height: 40rem;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
+.pelicula8 .texto {
+  flex: 1;
+  text-align: justify;
+}
+
+.pelicula8 .texto:hover{
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+/*Esta parte es para el pie de la pagína, donde se encuentra la fecha y "el creador"*/
+footer {
+  font-family: "Varela", sans-serif;
+  background-color: rgb(84, 18, 18);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+
+button:hover {
+transform: translateY(-3px);
+transition: 0.3s ease-in-out;
+}
+
+footer p {
+  margin: 0;
+  left: 1rem;
+}
+
+footer .fecha {
+  position: absolute;
+  right: 1rem;
+  margin: 0;
+  font-weight: 200;
+  opacity: 0.8;
+}

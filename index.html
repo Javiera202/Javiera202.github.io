@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mi primera página en HTML">
+  <meta name="author" content="Javiera R.">
+
+  <title>Curso Desarrollo Páginas Web</title>
+  <link rel="icon" type="image/x-icon" href="LOGO2MOVIE.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+
+<body>
+  <header>
+    <h1>CineMood</h1>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Estrenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="principal">
+    <h2>Clásicos que no fallan</h2>
+
+    <p class="parrafo">Aquí encontrarás recomendaciones de películas para este mes de Octubre 2025.</p>
+    <section>
+
+      <div class="pelicula1">
+        <div id="Lobo" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="lobo1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="lobo2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="lobo3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Lobo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Lobo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="texto">
+          <h3>La Casa Lobo (2018)</h3>
+          <p>Después de huir de una comunidad cerrada, María se esconde en una vieja casa del bosque, al sur de Chile.
+            Allí intenta empezar de nuevo, cuidando a dos pequeños cerdos como si fueran sy familia. 
+            Pero a medida que pasa el timepo, la casa cambia, las voces del pasado regresan yy la realidad comienza a mezclarse
+            con sus miedos.</p>
+        </div>
+      </div>
+
+      <div class="pelicula2">
+        <div id="Resplandor" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="thes1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="thes2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="thes3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Resplandor" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Resplandor" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="texto">
+          <h3>El Resplandor (1980)</h3>
+          <p>Jack Torrance es un hombre que se muda con su familia a un hotel aislado que debe cuidar,
+            con la esperanza de salir del bloqueo creativo de su escritura.
+            Mientras Jack no puede escapar del bloqueo, las visiones psíquicas de su hijo van en aumento.</p>
+        </div>
+      </div>
+
+      <div class="pelicula3">
+        <div id="exorcismo" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="ex1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="ex2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="ex3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#exorcismo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#exorcismo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="texto">
+          <h3>El exorcista (1973)</h3>
+          <p>Regan, una niña de doce años, es víctima de fenómenos paranormales.
+            Su madre, aterrorizada, tras someter a su hija a múltiples análisis médicos que no ofrecen
+            ningún resultado, acude a un sacerdote con estudios de psiquiatría. Éste está convencido de
+            que la niña es víctima de una posesión diabólica. Por eso, con la ayuda de otro sacerdote,
+            decide practicar un exorcismo.</p>
+        </div>
+      </div>
+
+      <div class="pelicula4">
+        <div id="Parásitos" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pa1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="pa2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="pa3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Parásitos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Parásitos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="texto">
+          <h3>Parásitos (2019)</h3>
+          <p>Tanto Gi Taek como su familia están sin trabajo.
+            Cuando su hijo mayor, Gi Woo, empieza a impartir clases particulares en
+            la adinerada casa de los Park, las dos familias, que tienen mucho en común pese
+            a pertenecer a dos mundos totalmente distintos, entablan una relación de resultados
+            imprevisibles.</p>
+        </div>
+      </div>
+
+      <div class="pelicula5">
+        <div id="legado" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="le1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="le2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="le3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#legado" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#legado" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="texto">
+          <h3>El legado del diablo (2018)</h3>
+          <p>Después de la muerte de la matriarca de la familia Graham, su hija,
+            Annie, se muda a la casa con su familia. Annie espera olvidar los problemas
+            que tuvo en su infancia allá, pero todo se tuerce cuando su hija empieza a ver
+            figuras fantasmales.</p>
+        </div>
+      </div>
+
+      <div class="pelicula6">
+        <div id="cadáver" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="cada1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="cada2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="cada3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#cadáver" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#cadáver" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="texto">
+          <h3>El cadáver de la novia (2005)</h3>
+          <p>Un joven llamado Víctor ensaya sus votos de boda en el bosque y, por error,
+            se compromete con una misteriosa novia muerta. Desde ese momento, queda atrapado
+            entre el mundo de los vivos y el de los muertos, intentando encontrar la forma de
+            regresar a su realidad.</p>
+        </div>
+      </div>
+
+      <div class="pelicula7">
+        <div id="Fantasma" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pham1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="pham2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="pham3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Fantasma" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Fantasma" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="texto">
+          <h3>El Fantasma de la Ópera (2004)</h3>
+          <p>París, 1870. Cuando La Carlotta abandona la Ópera de París, los dueños del liceo
+            deciden convertir a la talentosa Christine en la nueva protagonista. Su interpretación
+            en el estreno cautiva al público y al misterioso personaje conocido como El Fantasma de la
+            Ópera.</p>
+        </div>
+      </div>
+
+      <div class="pelicula8">
+        <div id="Land" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="lala1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="lala2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="lala3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Land" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Land" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="texto">
+          <h3> La La Land: ciudad de sueños (2016)</h3>
+          <p>Mia quiere ser actriz y Sebastián vive por el jazz.
+            Se conocen en Los Ángeles y comienzan una relación
+            mientras persiguen sus sueños. Pero a medida que avanzan, descubren
+            que cumplirlos puede alejarlos más de lo que imaginaban.
+          </p>
+        </div>
+      </div>
+
+      <h2>Recomendaciones de películas</h2>
+      <form id="formContacto">
+        <input type="text" id="mensaje" placeholder="Escribe tu recomendación aquí..." required>
+        <button id="btnEnviar">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>Javiera Rojos</p>
+    <p class="fecha">01-01-2025</p>
+  </footer>
+  <script src="scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
